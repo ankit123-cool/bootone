@@ -1,0 +1,54 @@
+#title{
+    background-color: #ff4c68;
+}
+h1{font-family: montserrat-thin;
+font-size: 3.5rem;
+line-height: 1.5;
+color: white;
+font-weight: bold;
+}
+.container-fluid{
+    padding:3% 15%;
+}
+.navbar-brand{font-family: ubuntu;
+font-size: 2.2rem;}
+.navbar{padding: 0%;
+padding-bottom: 5%;}
+.col1{padding-top: 7%;}
+.nav-item{padding: 0 18px;}
+.nav-link{font-size: 1.2rem;}
+.btn{margin: 13% 3%; }
+.img1{margin-left: 10%;width: 70%;transform: rotate(25deg); position: absolute;}
+#features{padding: 7% 15%;
+background-color: #fff;
+position: relative;
+z-index: 1;}
+.col2{text-align: center; padding: 5%;}
+h3{font-family: montserrat-bold;padding-top: 10%;}
+p{color: #8f8f8f;}
+#testimonials{
+text-align: center;
+background-color: #ef8172;
+color: #ffff;}
+h2{font-size: 3rem; font-weight: bold;line-height: 1.5;}
+.img2{width: 10%;border-radius: 100%;margin: 20px;}
+#press{background-color:#ef8172 ;text-align: center;}
+.prs{width: 15%; margin: 40px 20px;}
+.carousel-item{padding: 7% 15%;}
+#pricing{padding: 100px;text-align: center;}
+.prcl{padding: 3% 2%;}
+.btn{margin: 10% 0%;}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+#footer{padding: 7% 15%;text-align: center;}
+#lst{margin: 20px 10px;}
+.btnl{margin: 5% 2%; }
+.ct{font-size: 3.5rem; font-weight: bold;padding: 0%;}
+@media (max-width:1028px){
+    #title{text-align: center;}
+    .img1{position: static;
+    transform: rotate(0);}
+}
